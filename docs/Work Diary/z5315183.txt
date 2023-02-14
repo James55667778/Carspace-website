@@ -1,0 +1,60 @@
+week 1
+
+Form a group
+choose project
+Discuss the functions 
+Collect data and cases
+Set up  jira environment
+
+week2
+
+Write project proposal on google doc
+Discuss data structures
+Group meeting
+
+Week 3
+
+Group meeting
+finish proposal
+create database (branch database)
+
+wee4
+
+Coding database differet modle
+fix database bugs
+modify db.sql (branch database  branch backend/database)
+
+week5
+
+add more database modles
+complete retrospective demo A report
+
+week6
+
+coding M9900-48 update personal information api
+coding M9900-10 update vehicle information/billing/ phone number api
+create a new post user/register/car and put 3 new api in them (branch banckend/ user-info)
+
+week7
+
+fix 
+    MP9900-10
+    MP9900-48
+    MP9900-49/52
+bug
+
+week8
+
+Progressive demo B
+complete retrospective demo B report
+wirte Final report outline and prepare to start to write details
+coding MP9900-33 MP9900-28
+
+week9
+train the model (MP9900-28) for this project
+write report overviews details,installation guide details, System architecture and some dot point
+write test data
+
+week 10
+prepare for the final demo
+write report  discussion and conlusion, website functionalities, backend chanllenges, References.

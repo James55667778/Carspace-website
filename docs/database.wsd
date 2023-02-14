@@ -1,0 +1,71 @@
+@startuml Where2Park Database
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "Admin" as admin {
+  *id: number <<generated>>
+  --
+  *username: text
+  *email: text
+  ' hashed
+  *password: text
+}
+
+entity "User" as user {
+  *id: number <<generated>>
+  --
+  *username: text
+  *email: text
+  ' hashed
+  *password: text
+  *bankAccount: {bank, branch, account}
+  *vehicleDetail: {plate, type ENUM}
+}
+
+entity "CarSpace" as cp {
+  *id: text <<generated>>
+  --
+  *address: {longitude, latitude, street, suburb, state, postcode}
+  *price: {daily, weekly, monthly}
+  ' *dailyPrice: number
+  ' *weeklyPrice: number
+  ' *monthlyPrice: number
+  ' link or base64
+  *image: text[]
+  ' *duration: range<Date>
+  availability: { available: true | {startTime: text, endTime: text, dayOfWeek: text[]}, unavailable: text[] }
+  *comments: text[]
+  *rating: number
+  *userId: number <<FK>>
+  
+  --
+  title: text
+  description: text
+  bond: number
+  type: text ENUM [open, undercover, garage, basement]
+  amenities: text[]
+  size: {length: number, width: number}
+  maxAllowedVehicle: ENUM [hatchback, SUV, sedan, truck, van]
+  maxHeight: false | number | 0
+  accessType: ENUM [none, card, key, password ...]
+  instruction: text
+}
+
+entity "Order" as order {
+  *id: text <<generated>>
+  --
+  *customer: UserID <<FK>>
+  *provider: UserID <<FK>>
+  *carSpace: CarSpaceID <<FK>>
+  *duration: range<Date> {startDate: Date, endDate: Date}
+  *price: number
+}
+
+
+admin ||--o{ user
+user ||--o{ cp
+user ||--o{ order
+cp ||--|{ order
+
+@enduml

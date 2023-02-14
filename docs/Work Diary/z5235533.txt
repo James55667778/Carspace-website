@@ -1,0 +1,64 @@
+Week 1
+We build a group and choose the project.
+And make the assign about front-end and back-end.
+Join our Github Classroom and jira.
+
+Week 2
+Find some sample website to compare with our primary plan.
+List a couple of use stories in our Google Drive.
+And provide some useful link about making our website.
+
+Week 3
+Contribute to backend structure about booking.
+And talk about the Demo A together with peers.
+Write 6 user stories and add 4 descriptions on their platform.
+
+Week 4
+Focus on backend API about booking.
+And change the code bugs about the booking.py.
+
+Week 5
+Try to help other peers to build backend aspect together.
+And finish the Progressive Demo A.
+Write the 4 user stories in sprint 2.
+MP9900-11;
+MP9900-10;
+MP9900-12;
+MP9900-14;
+
+Week 6
+Conclusion all the issue before 6 weeks.
+Wirte the Retrospective A.
+And reponsibility to the sprint 2 comp-9900-backend-rating-review.
+Contribute to the sprint 3 comp-9900-backend-cheaper.
+
+Week 7 
+Prepare the report primarial structures,including Overview,Problem Review,
+Existing System Case Study,Website Functionalities,
+System Architectureand,Implementation and Installation Guide.
+Prepare for the Challenges Progressive Demo B.
+Finish the sprint 3 comp-9900-backend-cheaper.
+
+Week 8
+Take part the Challenges Progressive Demo B.
+Continue to write the report, including System Architectureand,
+Implementation and Installation Guide.
+
+Week 9 
+Pratise the final demo.
+Finalize the report demo.
+
+Week 10
+Finish the final demo.
+Finsh the discussion and conclusion part and finish the whole report.
+
+
+
+
+
+
+
+
+
+
+

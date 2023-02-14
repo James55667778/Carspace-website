@@ -1,0 +1,52 @@
+week 1
+
+Form a group
+Discuss the functions that the project might require
+Collect data, cases
+Set up environment
+
+week 2
+
+Writing project proposal
+Discuss data structures
+Draw ER graph
+
+week 3
+Fix problems in proposal
+Fix ER graph
+Make websit logo
+Coding login function
+Coding app.py
+
+week 4
+coding carspace api
+write api doc
+
+week 5
+coding namespace public
+coding M9900-12 filter api
+coding M9900-57 update booing api
+coding M9900-56 cancel booking api
+coding M9900-55 publish and unpublish car space api
+coding M9900-54 update car space detail api
+regularize api doc, add return model
+
+week 6
+optimize code
+fix bugs
+
+week 7
+writing sprint 3 api doc
+
+week 8
+coding reset passwoed
+coding M9900-40 send receipt
+coding M9900-27 like and dislike
+
+week 9
+coding M9900-28 recommendation system
+coding M9900-29 lower price notification
+coding M9900-34 wish list
+coding email templates
+try to solve mail and thread concurrency bugs
+

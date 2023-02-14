@@ -1,0 +1,36 @@
+@startuml Sign Up Sequence Diagram
+actor       User       as user
+entity      "Front-end" as frontend
+entity      Backend      as backend
+database    Database    as database
+
+
+user -> frontend: Submits filled Sign up form
+
+frontend -> frontend: Validates input information
+
+alt#GoldenRod #LightBlue success
+
+  frontend -> user: No error message shown
+  frontend -> frontend: Hashes password
+  
+  frontend -> backend: Sign Up Request
+  
+  backend -> database: Creates a user record and stores hashed password
+  
+  database -> backend: Created user record
+  
+  backend -> backend: Creates token based on user record
+  
+  backend -> frontend: Token
+  
+  frontend -> user: Successful sign up message
+else #LightPink error
+  frontend -> user: Input information validation error message
+
+end
+
+
+
+@enduml
+

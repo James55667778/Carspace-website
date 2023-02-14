@@ -1,0 +1,59 @@
+Week 1
+
+We Formed the group and decided on the project. 
+After Github classroom was created, I set up 
+the structure of the application, front-end 
+and backend folders and branches, as well as 
+the `commitlint` for the whole application. 
+For front-end side, I created a Nextjs app 
+and configured the linter, formatter.
+
+Week 2
+
+Working on the proposal. Wrote 10 user stories, 
+overview about system architecture and front-end 
+tech stack as well as website pages outline 
+related to application user interface. 
+
+Week 3
+
+Finished up proposal. Completed UI design, 
+database model and system architecture. Drew 
+sequence diagrams for authorization process.
+Wrote formal proposal document using Latex.
+
+Week 4
+
+Set up the backend framework and project structure,
+including models for database, routes for API. Wrote
+Home page and provider register page available box and
+customer pick date range box components.
+
+Week 5
+Finished up front-end pages related to sprint1,
+fixed backend application and ran front-end/backend
+integration test. Deployed both applications in 
+cloud server. Demonstrated the project in tutorial.
+
+Week 6
+
+Started sprint2, wrote user profile page and fixed
+page responsiveness issues. Wrote retrospective A
+report.
+
+Week 7
+
+Finished sprint2. Wrote admin pages, fixed issues
+in both frontend and backend applications.
+
+Week 8
+
+Fixed up issues in frontend and backend applications
+before demonstration. Presented demonstration B. 
+Refactor frontend application for better code quality.
+Started sprint 3.
+
+Week 9
+
+Finished sprint3, wrote ReadMe file for frontend and backend
+applications for tutor testing. Wrote test data. Started report.

@@ -1,0 +1,60 @@
+@startuml Login Sequence Diagram
+actor       User       as user
+entity      "Front-end" as frontend
+entity      Backend      as backend
+database    Database    as database
+
+
+user -> frontend: Submits filled Login form
+activate frontend
+frontend -> frontend: Validates input information
+  
+  alt#GoldenRod #LightBlue success
+  
+    frontend -> user: No error message shown
+    
+    frontend -> frontend: Hashes password
+  
+  frontend -> backend: Login Request
+  
+  backend -> database: Extra user record based on email/username
+  
+  alt#Gold #LightSkyBlue success
+  
+    database -> backend: Found user record
+    
+    backend -> backend: Validates hashed password
+    
+    alt#PaleGoldenRod #LightCyan hashed password match 
+      
+      backend -> backend: Creates token based on user record
+      backend -> frontend: Token
+      frontend -> user: Successful Login message
+    
+    else #MistyRose error
+    
+      backend -> frontend: Password not match error
+      frontend -> user: Password not match error
+    
+    end
+    
+  else #Pink error
+  
+      database -> backend: User not found error
+      backend -> frontend: User not found error
+      frontend -> user: User not found error message
+  
+  end
+
+else #LightPink error
+  frontend -> user: Input information validation error message
+
+deactivate frontend
+end
+
+
+
+
+
+@enduml
+

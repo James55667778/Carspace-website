@@ -1,0 +1,47 @@
+Week 1
+
+Form up the group.
+Select the project.
+Discuss basic functionalities to implement.
+Create the Jira project and Github repository.
+
+Week 2
+
+Group meeting to discuss some of the functionalities.
+Write project proposal (background, user stories).
+Design interfaces and draw the flow chart.
+
+Week 3
+
+Create backlog on Jira
+Finish proposal
+
+Week 4
+
+Write login and signup page
+Write register car space and car space detail page
+
+Week 5
+
+Group meetings to discuss and fix bugs
+Progressive demo A and retrospective A
+
+Week 6
+
+Write car space editing and booking page
+Fix some UI issues and bug
+
+Week 7
+
+Implement dark mode
+Integrate with backend API
+
+Week 8
+
+Group meetings to review code
+Progressive demo B and retrospective B
+
+Week 9
+
+Fix some minor issues of past user stories
+Start writing report
